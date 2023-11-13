@@ -12,4 +12,9 @@ for (let i = 0; i < maara;i++) {
 document.getElementById("skripti").innerHTML =" jasenia"
 
 
-
+var html = "";
+    jasenia.sort()
+    for (let i = 0; i < jasenia.length; i++){
+        html += "<ol>"+ "<li>" + jasenia[i] + "</li>" + "</ol>";
+    }
+document.querySelector("#skripti").innerHTML = html
