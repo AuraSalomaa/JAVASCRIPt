@@ -1,11 +1,11 @@
 
-const amount = prompt("How many particapents?")
+const amount = prompt("How many participants?")
 let jasenia = []
 const maara = parseInt(amount)
 const OrgList = []
 const kysynta = ""
 for (let i = 0; i < maara;i++) {
-    const kysynta = prompt("write names of the particapents?")
+    const kysynta = prompt("write names of the participants?")
     jasenia.push(kysynta)
 
 }
