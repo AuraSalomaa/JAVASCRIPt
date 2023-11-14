@@ -8,6 +8,10 @@ const third = parseInt(Number3);
 sum = first + second + third
 product = first * second * third
 avarage = first + second + third / 3
+
+
+var laskenta = ""
+document.querySelector("#JSskripti3").innerHTML = laskenta += "<br>"+ sum+ "<br>"+ product+ "<br>"+ avarage
 console.log(sum)
 console.log(product)
 console.log(avarage)
