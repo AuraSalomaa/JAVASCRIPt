@@ -1,4 +1,3 @@
-
 const amount = prompt("How many participants?")
 let jasenia = []
 const maara = parseInt(amount)
