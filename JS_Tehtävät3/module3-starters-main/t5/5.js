@@ -92,4 +92,19 @@ const picArray = [
   },
 ];
 
-// add your code here
+
+for (let i = 0; i < picArray.length;i++){
+    let artikkelit = "<article>"+
+    "</article>"
+    let titteli =  "<h2>"+ picArray.title[i]+ "</h2>"
+    let runko = "<figure>" + "</figure>"
+    let kuva =  "<img" + "src=" + picArray.image.medium[i] + "alt="+ picArray.title + "/>"
+    let pikku_kuvateksti = "<figcaption>" + picArray.caption[i]+ "</figcaption>"
+    let kuvailu = "<p>" + picArray.description[i] + "</p>"
+    runko.appendChild(kuva,pikku_kuvateksti)
+    artikkelit.appendChild(titteli,runko, kuvailu)
+    document.querySelector("#pictures").innerHTML = artikkelit
+
+
+}
+

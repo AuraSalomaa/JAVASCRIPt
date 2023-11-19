@@ -13,3 +13,5 @@ const students = [
     id: '5423679',
   },
 ];
+
+document.createElement(value)
