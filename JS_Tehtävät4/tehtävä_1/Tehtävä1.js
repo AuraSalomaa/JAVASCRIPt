@@ -1,15 +1,15 @@
-const tvshowform = document.querySelector("#query")
-tvshowform.addEventListener('submit', async function(evt){
-        evt.preventDefault();
+//const tvshowform = document.querySelector("#query")
+//tvshowform.addEventListener('submit', async function(evt){
+        //evt.preventDefault();
 
-        const code = document.querySelector('input[name]').value;
+        //const code = document.querySelector('input[name]').value;
 
         try{
-            const response = await fetch(`https://api.tvmaze.com/search/shows/${code}`);
+            const response = await fetch(`https://api.chucknorris.io/jokes/random`);
             const jsonData = await response.json();
             console.log(jsonData['value'])
             console.log(response)
-            console.log(code)
+            //console.log(code)
 
 
 
@@ -28,4 +28,4 @@ tvshowform.addEventListener('submit', async function(evt){
 
 
 
-});
+//});
