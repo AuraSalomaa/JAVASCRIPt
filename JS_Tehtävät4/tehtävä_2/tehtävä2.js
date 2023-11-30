@@ -12,6 +12,8 @@
             const response = await fetch(`https://api.tvmaze.com/search/shows?q=${name}`)
             const jsonData = await response.json()
             console.log(jsonData)
+
+
         }catch (error) {
             console.log(error.message);
             }

@@ -5,12 +5,13 @@
     <title>Title</title>
 </head>
 <body>
- <form id=vitsikysely>
-     <input id="q" name="query" type="text">
+ <form id=vitsikysely action="https://api.chucknorris.io/jokes/search/query?$">
+     <input id="query" name="q" type="text">
      <input type="submit" value="Search">
  </form>
 
+
 <script src = tehtävä6.js></script>
-<div id = jokes></div>
+<p id = "jokes"></p>
 </body>
 </html>

@@ -7,5 +7,6 @@ joke().then(response=>{
 
     vastaus  = response.value
     console.log(vastaus)
+    document.getElementById("print").innerHTML = vastaus
 
 })
